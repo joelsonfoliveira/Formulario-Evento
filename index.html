@@ -7,9 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro de Evento</title>
-
   <link rel="stylesheet" href="style.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap"
     rel="stylesheet">
 </head>
@@ -22,9 +20,14 @@
     </header>
     <form>
       <fieldset>
-        <legend>
-          Informações do Evento
-        </legend>
+        <legend>Informações do Evento</legend>
+        <div class="input-wrapper">
+          <label for="event-title">
+            Título do Evento
+            <span>(Mínimo 8 caracteres)</span>
+          </label>
+          <input type="text" id="event-title" />
+        </div>
       </fieldset>
     </form>
   </div>

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .page {
   width: 736px;
   margin: auto;
@@ -14,6 +20,7 @@ header h1 {
   font-size: 36px;
   line-height: 42px;
   color: #FFFFFF;
+  margin-bottom: 24px;
 }
 
 header p {
@@ -59,4 +66,32 @@ fieldset legend {
   width: 100%;
   border-bottom: 1px solid #E6E6F0;
   padding-bottom: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  width: 200px;
+  padding-left: 100px;
 }
