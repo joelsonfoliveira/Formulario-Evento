@@ -24,7 +24,7 @@
           <legend>Informações do Evento</legend>
           <div class="input-wrapper">
             <label for="event-title">Título do Evento <span>(Mínimo 8 caracteres)</span></label>
-            <input type="text" id="event-title" />
+            <input type="text" id="event-title" required minlength="8" />
           </div>
           <div class="input-wrapper">
             <label for="event-link">Link do Evento <span>(comece com https://)</span></label>
@@ -57,7 +57,7 @@
           </div>
           <div class="input-wrapper">
             <label for="event-password">Senha de acesso para os participantes <span>(Mínimo 8 caracteres)</span></label>
-            <input type="password" id="event-password" />
+            <input type="password" id="event-password" minlength="8" />
           </div>
           <div class="checkbox-wrapper">
             <input type="checkbox" id="event-private" />
@@ -86,7 +86,7 @@
       </fieldset>
     </form>
     <footer>
-      <input class="button" form="my-form" type="submit" value="Salvar evento">
+      <button class="button" form="my-form">Salvar evento</button>
     </footer>
   </div>
 </body>
