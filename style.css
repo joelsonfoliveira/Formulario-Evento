@@ -48,7 +48,6 @@ header p {
   color: #42D3FF;
 }
 
-
 .page {
   width: 736px;
   margin: auto;
@@ -60,6 +59,10 @@ form {
   border-radius: 8px;
   min-height: 300px;
   padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 fieldset {
